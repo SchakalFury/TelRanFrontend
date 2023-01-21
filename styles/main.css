@@ -1,79 +1,143 @@
-* {
-    margin: 0; padding: 0;
-}
-
-
-
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 15px;
-    box-sizing: border-box;
-    max-width: 1330px;
-    margin: 0 auto;
-    border-bottom: 5px solid black;
-    font-family: 'Montserrat', sans-serif;
-    color:rgb(19, 71, 182);
-    font-size: 20px;
-    line-height: 28px;
-}
-
-.menu {
-    display: flex;
-    list-style: none;
-}
-
-.menu li {
-    margin-left: 94px;
-}
-
-.menu li a {
-    color: #252B42 ;
-    text-decoration: none;
-}
-.menu li a:hover{
-    color:#FA4A0C;
-}
-.begin {
-    padding: 15px;
-}
-main {
-    margin: 30px;
-    grid-template-columns: 1fr 1fr 1fr;
-    display: grid;
-    grid-gap: 30px;
-    justify-content: center;
-  
-
-}
-
-.item{
-    padding: 10px;
-    border: 1px solid black;
-    border-radius: 10px;
-    justify-items: start;
-}
-
-.item {
-    font-size: 20px;
-    color: white;
-    background-size: cover;
+.global-container {
+    background: url("../images/bich.jpg")top center repeat-x #000;
+    overflow:scroll;
+    background-attachment: fixed;
     background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    border: 0;
+    display: fixed;
+    height: 100vh;
+    font-family: "canis minor";
+}
+.toolbar {
+    background-color: rgb(178, 162, 138);
+    width:auto;
+    font-family: "Reza Zulmi Sans";
+    font-size: x-large;
+ 
 }
 
-.item_2 {
-background-image: url(../images/Sunrises_and_sunsets_469716.jpg);
-height: 500px;
-}
 
-.item_3 {
-    background-image: url(../images/hotel.jpg);
-}
-
-.item_4 {
-    background-image: url(../images/viza.jpg);
+.text-container > h1 {
+    font-family: "Space Age";
+    font-size: 450%;
+    border: 5px solid white;
+    border-radius: 15px;
+    padding-left: 20%;
+    padding-top: 3%;
+    height: 200px;
+    display: flex;
+    text-shadow: -20px 14px 7px rgba(5,0,0,0.8);;
     
 }
+.container1 {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    
+    height: 100vh;
+    max-width: 1500px;
+    margin: auto;
+    padding-top: 30px;
+    padding: 0;
+    border: 0;
+    display: fixed;
+}
+
+ h1{
+       font-family: "canis minor";
+       color: rgb(178, 162, 138);
+       text-align: left;
+       padding-top: 10px;
+   }
+h3{
+    font-family: "Reza Zulmi Sans";
+    color:rgb(178, 162, 138);; 
+   }
+
+.first-block {
+    padding-top: 90px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+#first {
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 17px 14px 7px 20px rgba(0, 0, 0, 0.25);
+    margin-left: 20px;
+}
+.first-text {
+    margin-left: 40px;
+}
+
+.first-text > h1 {
+    font-size: 380%;
+
+ }
+
+.container2 {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    
+    height: 100vh;
+    max-width: 1500px;
+    margin: auto;
+    padding-top: 10px;
+    padding: 0;
+    border: 0;
+    display: fixed;
+ }
+
+ .second-block {
+    padding-top: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+      
+ }
+ .second-text {
+     padding-left: 25%;
+     margin-rigth:10px;
+
+ }
+
+ .second-text > h1 {
+    font-size: 350%;
+ }
+#second {
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 17px 14px 7px 20px rgba(0, 0, 0, 0.25);
 
 
+
+}
+
+
+
+
+@font-face {
+font-family: "canis minor"; 
+src: url("Resourse/CanisMinor.ttf") format("truetype");
+font-style: normal; 
+font-weight: normal; 
+ } 
+@font-face {
+font-family: "Reza Zulmi Sans"; 
+src: url("Resourse/RezaZulmiSans.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
+@font-face {
+font-family: "Space Age"; 
+src: url("Resourse/space age.ttf") format("truetype");
+font-style: normal; 
+font-weight: normal; 
+} 
