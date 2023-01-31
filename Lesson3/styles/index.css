@@ -1,0 +1,215 @@
+@font-face {
+    font-family: "Inter-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Inter-Regular"), url("../fonts/Inter-Regular.woff2") format("woff2"),
+    url("../fonts/Inter-Regular.woff") format("woff");
+
+}
+
+@font-face {
+    font-family: "Oswald-Medium";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local("Inter-Regular"), url("../fonts/Oswald-Medium.woff2") format("woff2"),
+    url("../fonts/Oswald-Medium.woff") format("woff");
+
+}
+.bg-aqua {
+    background: #1ABC9C;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-justife--between {
+    justify-content: space-between;
+}
+
+.header {
+    width: 100%;
+    padding: 15px 70px;
+    align-items: center;
+}
+
+.gap-20 {
+    display: flex;
+    gap: 20px;
+}
+
+.nav {
+    font-size: 25px;
+    line-height: 30px ;
+    font-family: 'Inter-Regular', Times, serif;
+    color: black;
+}
+
+.nav a {
+    color: #000;
+    text-decoration: none;
+}
+
+.header > img{
+    width: 101px;
+    height: 26px;
+    object-fit: contain;
+}
+
+
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.section1 h1 {
+    text-align: center;
+}
+.text1 {
+    text-align: justify;
+   align-items: center;
+   width: 50%;
+   padding: 364px 70px;
+    
+}
+
+
+.projects{
+    background: #DCFFEB;
+}
+
+.projects > h2 {
+    font-size: 35px;
+    line-height: 42px;
+    font-family: 'Inter-Regular',  Times, serif;
+    margin-bottom: 20px;
+    padding: 124px 64px;
+
+}
+
+
+
+
+
+.card {
+   background-image: url(../images/Rectangle3.png);
+   background-position: center;
+   background-size: cover;
+   justify-content: flex-end;
+    padding: 2px 36px;
+  
+   margin: 30px;
+   min-height: 376px;
+   width: 31.525%;
+   gap: 5px;
+   align-items: center;
+   flex-direction: column;
+
+   display: table;
+}
+
+.card > h4, p{
+
+  display: table-cell;
+  vertical-align: bottom;
+  font-size: 20px;
+  line-height: 35px;
+  font-family: 'Oswald-Medium',  Times, serif;
+
+    font-weight:100;
+  
+}
+
+
+
+.wrapper {
+    width: 600px;
+    position: relative;
+}
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    height: 400px;
+    width: 50%;
+    background-color: rgba(220, 220, 32, 0.5);
+    /* background-color: rgb(220, 220, 32);
+    opacity: 0.5; */
+    padding: 5%;
+    margin: 20%;
+    border: 5px solid green;
+}
+.inner-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+}
+
+.footer {
+    padding: 84px 70px 76px;
+   
+    
+}
+
+.footer > h2 {
+    font-size: 35px;
+    line-height: 42px;
+    font-family: 'Inter-Regular',  Times, serif;
+    margin-bottom: 55px;
+}
+
+.flex-direction--column{
+    flex-direction: column;
+    
+}
+
+.gap-25{
+    gap: 25px;
+}
+.contacts-item {
+    align-items: center;
+    
+}
+
+.contacts-item address {
+    text-align: center;
+    font-style: normal;
+}
+
+.contacts-item--text{
+    font-size: 24px;
+    line-height: 35px;
+    font-family: 'Oswald-Medium',  Times, serif;
+}
+.contacts-item--icon {
+    color:#F7654A;
+    font-size: 48px;
+    
+}
+
+.footer h4 {
+    color: grey;
+}
+
+.flex p, a {
+    font-size: 24px;
+    line-height: 35px;
+    font-family: 'Oswald-Medium',  Times, serif;
+    text-decoration: none;
+    color: #000;
+    
+
+}
+
+.flex {
+    align-items: center;
+    justify-content: space-between;
+}
