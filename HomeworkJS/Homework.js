@@ -147,3 +147,45 @@
 // }
 
 
+
+/**
+ * Предпоследняя задача со *
+ */
+
+
+// const arr = [15, 38, 12, 38,82,84 ,46,90 ,25 ,83 ,67 ,4 ,58 ,39 ,91 ,36 ,58 ,89 ,76, 33, 85] 
+
+// let firstNumber = 0;
+// let lastNumber = 0;
+
+// if(arr[0] > 10){
+//   firstNumber += arr.shift() * 2 
+// }
+// if(arr.slice(-1) > 25){
+//   lastNumber += arr.pop() - 25
+// }
+
+// if(lastNumber != 0){
+//   arr.unshift(lastNumber)
+// }
+
+// if(firstNumber != 0){
+//   arr.push(firstNumber)
+// }
+
+// console.log(arr)
+// console.log(firstNumber)
+// console.log(lastNumber)
+
+
+
+/**
+ * Последняя задача со звёздочкой
+ */
+
+
+// var arr = [15, 38, 12, 38, 82, 84, 46, 90, 25, 83, 67, 4, 58, 39, 91, 36, 58, 89, 76, 33, 85] 
+
+// var result = Math.max(...arr) //извините мне мою наглость, я человек лаконичный...
+
+// console.log('TOTAL :: ' + result)
