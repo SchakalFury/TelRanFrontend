@@ -1,0 +1,39 @@
+.default {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    margin: 20px;
+    background-color: blue;
+    font-size: xx-large;
+    color: yellow;
+    text-align: center;
+}
+
+
+.active {
+    background-color: yellow;
+    color: blue;
+}
+
+.def{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 20px;
+    font-size: x-large;
+    text-align: center;
+}
+
+
+
+.none {
+    visibility: hidden;;
+}
+
+.block {
+    display: inline-block;
+}
+
+.none-visibility{
+    display: none;
+}
